@@ -1,0 +1,7 @@
+
+app:
+  ticket-service:
+    max-booking-allowed: 50
+  db:
+    connection-url: mongodb://localhost:45678
+    max-idle-timeout: 8000

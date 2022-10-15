@@ -1,8 +1,10 @@
 package org.example.repository;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+//@Component
+@Repository
 public class BookingRepositoryImpl implements BookingRepository {
     private final DBClient dbClient;
 
