@@ -8,4 +8,12 @@ final public class BookingRequest {
         this.sourceStation = sourceStation;
         this.destinationStation = destinationStation;
     }
+
+    @Override
+    public String toString() {
+        return "BookingRequest{" +
+                "sourceStation='" + sourceStation + '\'' +
+                ", destinationStation='" + destinationStation + '\'' +
+                '}';
+    }
 }

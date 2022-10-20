@@ -17,4 +17,11 @@ public class Booking {
                 '}';
     }
 
+    public BookingStatus getStatus() {
+        return status;
+    }
+
+    public String getPnr() {
+        return pnr;
+    }
 }
